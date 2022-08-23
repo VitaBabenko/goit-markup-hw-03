@@ -38,6 +38,11 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 h1,
 h2,
 h3,
@@ -77,8 +82,8 @@ img {
 
 .logo {
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 
   color: var(--accent-color);
   font-family: Raleway, cursive;
@@ -158,18 +163,22 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+
   background-color: var(--secondary-bg-color);
-  letter-spacing: var(--hero-letter-spacing);
   text-align: center;
 }
 
 .hero-title {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
 
   color: var(--primary-bg-color);
   font-weight: 900;
   font-size: var(--hero-font-size);
   line-height: 1.36;
+  letter-spacing: var(--hero-letter-spacing);
   text-transform: uppercase;
 }
 
@@ -196,10 +205,6 @@ img {
 }
 
 /* Section */
-
-.section {
-  padding-top: 94px;
-}
 
 .section-title {
   margin-bottom: 50px;
@@ -242,11 +247,13 @@ img {
   margin-bottom: 10px;
 
   color: var(--title-text-color);
+  font-size: var(--primary-font-size);
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .features-text {
+  font-size: var(--primary-font-size);
   line-height: 1.71;
 }
 
@@ -257,10 +264,14 @@ img {
   column-gap: 30px;
 }
 
+.work-section {
+  padding-top: 0;
+}
+
 /* Team */
 
-.content {
-  padding-bottom: 94px;
+.team-section {
+  background-color: var(--third-bg-color);
 }
 
 .team {
@@ -275,8 +286,8 @@ img {
 }
 
 .team-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
   color: var(--title-text-color);
   font-size: var(--secondary-font-size);
@@ -285,7 +296,7 @@ img {
 }
 
 .team-text {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 
   font-weight: 400;
   font-size: var(--secondary-font-size);
@@ -335,11 +346,6 @@ img {
   gap: 30px;
 }
 
-.section-projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .projects .link {
   text-decoration: none;
 }
@@ -348,7 +354,7 @@ img {
   display: flex;
   column-gap: 8px;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .projects-border {
@@ -376,20 +382,24 @@ img {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--secondary-bg-color);
   letter-spacing: var(--primary-letter-spacing);
 }
 
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.footer .logo {
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo-footer {
   color: var(--primary-bg-color);
 }
 
-.footer-list {
+.address {
   margin-top: 20px;
 }
 
